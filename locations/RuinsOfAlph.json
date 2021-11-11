@@ -26,7 +26,7 @@
 				"access_rules": ["ho-oh, @canUseSurf"],
 				"visibility_rules": ["tin_tower, full_item"],
 				"item_count": 4
-			},
+			}
 		],
 		"map_locations": [
 			{

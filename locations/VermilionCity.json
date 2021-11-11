@@ -8,7 +8,7 @@
 			{
 				"name": "Pokémon Fan Club Chairman",
 				"visibility_rules": ["full_item"],
-				"item_count": 1,
+				"item_count": 1
 			},
 			{
 				"name": "Hidden Items",
@@ -38,13 +38,13 @@
 				"access_rules": ["$haveAllBadges"],
 				"visibility_rules": ["pointless_checks"],
 				"item_count": 1
-			},
+			}
 		],
 		"map_locations": [
 			{
 				"map": "johto_kanto",
 				"x": 2452,
-				"y": 704,
+				"y": 704
 			}
 		]
 	}

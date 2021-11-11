@@ -16,7 +16,7 @@
 			{
 				"name": "Rocket Member",
 				"access_rules": ["power_plant_manager"],
-				"item_count": 1,
+				"item_count": 1
 			},                       
 			{
 				"name": "Gym - Misty",
@@ -28,7 +28,7 @@
 			{
 				"map": "johto_kanto",
 				"x": 2452,
-				"y": 370,
+				"y": 370
 			}
 		]
 	}
