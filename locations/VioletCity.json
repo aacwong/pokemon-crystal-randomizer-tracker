@@ -3,8 +3,9 @@
 		"name": "Violet City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-        "steps_to": {"Route 32":100},
-        "steps_to": {"Ecruteak City":50},
+        "steps_to":{"Route 32":100,
+                    "Ecruteak City":50,
+                    "Sprout Tower":30},
         "battles": [],
 		"sections": [
 			{

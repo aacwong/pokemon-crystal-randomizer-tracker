@@ -3,7 +3,7 @@
 		"name": "Celadon City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
-        "steps_to":{"Fuchsia City":200},
+        "steps_to":{"Fuschia City":200},
 		"access_rules": ["@Saffron City"],
 		"sections": [
 			{

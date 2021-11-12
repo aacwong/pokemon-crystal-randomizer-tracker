@@ -6,7 +6,7 @@
         "steps_to": {"Celadon City":45,
                      "Vermilion City":70,
                      "Cerulean City":70,
-                     "Lavender City":90},
+                     "Lavender Town":90},
 		"access_rules": ["squirt_bottle, pass", "@canUseCut, pass", "$noCutTree, pass", "squirt_bottle, ss_ticket"],
 		"sections": [
 			{
