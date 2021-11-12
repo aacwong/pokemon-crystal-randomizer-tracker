@@ -3,10 +3,13 @@
 		"name": "Goldenrod Underground",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to":{"Goldenrod City":30},
 		"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
 		"sections": [
 			{
 				"name": "Shops",
+        "steps": 30,
+        "battles": [[10]],
 				"item_count": 1
 			},
 			{
@@ -44,6 +47,9 @@
 			{
 				"name": "Save The Director",
 				"access_rules": ["basement_key,$canFightTeamRocket"],
+        "steps": 200,
+        "battles": [[7,9],[30,30,32,32,28]],
+        "cond_battles": [[27],[23,23,25],[24,24],[25,25]],
 				"item_count": 1
 			},
 			{   

@@ -3,6 +3,8 @@
 		"name": "Viridian City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to":{"Pallet Town":100,
+                    "Indigo Plateau":80},
 		"access_rules": ["snorlax,@canUseCut", "@canUseSurf,@canUseWaterfall,$haveEightBadges,[backward_kanto]"],
 		"sections": [
 			{
@@ -14,6 +16,8 @@
 			{
 				"name": "Gym - Blue",
 				"access_rules": ["talk_blue"],
+        "steps": 30,
+        "battles": [[56,54,56,58,58,58]],
 				"hosted_item": "blue"
 			}
 		],

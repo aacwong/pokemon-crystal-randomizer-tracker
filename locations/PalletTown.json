@@ -3,11 +3,13 @@
 		"name": "Pallet Town",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to": {"Cinnabar Island":60},
 		"access_rules": ["@Viridian City"],
 		"sections": [
 			{
 				"name": "Talk To Oak",
 				"access_rules": ["$haveEnoughBadges"],
+        "steps": 10,
 				"hosted_item": "oak"
 			}
 		],

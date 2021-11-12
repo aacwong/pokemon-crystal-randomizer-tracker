@@ -3,6 +3,9 @@
 		"name": "Violet City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to": {"Route 32":100},
+        "steps_to": {"Ecruteak City":50},
+        "battles": [],
 		"sections": [
 			{
 				"name": "Gym Leader TM",
@@ -11,6 +14,8 @@
 			},
 			{
 				"name": "Gym - Falkner",
+        "steps": 40,
+        "battles": [[9],[7,7],[7,9]],
 				"hosted_item": "falkner"
 			},
 			{   

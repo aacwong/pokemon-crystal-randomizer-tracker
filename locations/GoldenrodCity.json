@@ -3,6 +3,10 @@
 		"name": "Goldenrod City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to": {"Goldenrod Radio Tower": 40,
+                     "Goldenrod Underground": 60,
+                     "Ecruteak City": 180,
+                     "Violet City": 130},
 		"access_rules": ["squirt_bottle", "@canUseCut", "$noCutTree"],
 		"sections": [
 			{
@@ -39,11 +43,14 @@
 			},
 			{
 				"name": "Gym - Whitney",
+        "steps": 60,
+        "battles": [[18],[18,20]],
 				"hosted_item": "whitney"
 			},
 			{
 				"name": "Flower Shop",
 				"access_rules": ["plain_badge"],
+        "steps": 60,
 				"item_count": 1
 			}
 		],

@@ -3,12 +3,15 @@
 		"name": "Tin Tower",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to":{"Ecruteak City":50},
 		"access_rules": ["@Ecruteak City, clear_bell"],
 		"visibility_rules": ["tin_tower"],
 		"sections": [
 			{
 				"name": "Rainbow Wing",
 				"access_rules": ["red_gyarados", "elite_four"],
+        "steps": 50,
+        "battles": [[32,32],[32,32],[32,32],[40]],
 				"visibility_rules": ["tin_tower"],
 				"item_count": 1
 			},

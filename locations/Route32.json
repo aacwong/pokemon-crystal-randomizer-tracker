@@ -3,6 +3,8 @@
 		"name": "Route 32",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to": {"Azalea Town": 150},
+        "battles": [],
 		"sections": [
 			{
 				"name": "Berry Trees",

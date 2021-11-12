@@ -27,6 +27,8 @@
 			{
 				"name": "Speak To Misty",
 				"access_rules": ["power_plant_manager"],
+        "steps": 20,
+        "battles": [[35],[30,34],[33,33],[28,31,31],[34],[29,32,29],[36]],
 				"hosted_item": "talk_misty"
 			},
 			{   

@@ -3,6 +3,7 @@
 		"name": "Sprout Tower",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps": 35,
 		"sections": [
 			{
 				"name":  "1F",
@@ -23,6 +24,8 @@
 			},
 			{
 				"name": "Defeat The Elder",
+        "steps": 100,
+        "battles": [[3,3,3],[6],[6],[7,7,10]],
 				"item_count": 1
 			}                            
 		],

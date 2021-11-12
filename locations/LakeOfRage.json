@@ -3,6 +3,8 @@
 		"name": "Lake of Rage",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to": {"Mahogany Town":90},
+        "battles": [[17,20]],
 		"access_rules": ["@Ecruteak City"],
 		"sections": [
 			{   
@@ -15,6 +17,8 @@
 			{
 				"name": "Red Gyarados",
 				"access_rules": ["@canUseSurf"],
+        "steps": 10,
+        "battles": [[30]],
 				"hosted_item": "red_gyarados"
 			},
 			{

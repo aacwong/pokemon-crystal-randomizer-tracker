@@ -3,14 +3,20 @@
 		"name": "Ecruteak City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to":{"Olivine City":135,
+                    "Mahogany Town":100},
+        "battles":[[20]],
 		"access_rules": ["squirt_bottle", "pass,ss_ticket,@canUseCut", "pass,ss_ticket,$noCutTree"],
 		"sections": [
 			{
 				"name": "House",
+        "steps": 10,
 				"item_count": 1
 			},
 			{
 				"name": "Kimono Girls",
+        "steps": 50,
+        "battles": [[17],[17],[17],[17],[17]],
 				"item_count": 1
 			},
 			{
@@ -28,6 +34,8 @@
 			},
 			{
 				"name": "Gym - Morty",
+        "steps": 100,
+        "battles": [[20,20,18,22],[16,16,16,16,16],[22],[18,20,20],[21,21,23,25]],
 				"hosted_item": "morty"
 			}
 		],

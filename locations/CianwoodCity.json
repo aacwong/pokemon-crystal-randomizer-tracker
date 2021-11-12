@@ -17,6 +17,7 @@
 			{
 				"name": "Pharmacy",
 				"access_rules": ["talk_jasmine"],
+        "steps": 10,
 				"item_count": 1
 			},
 			{
@@ -28,10 +29,13 @@
 			{
 				"name": "Gym - Chuck",
 				"access_rules": ["@canUseStrength"],
+        "steps": 20,
+        "battles": [[27],[27],[25,25],[23,23,25],[27,30]],
 				"hosted_item": "chuck"
 			},
 			{
 				"name": "Chuck's Wife",
+        "steps": 15,
 				"access_rules": ["chuck"],
 				"item_count": 1
 			}

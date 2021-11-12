@@ -7,20 +7,27 @@
 		"sections": [
 			{   
 				"name": "Radio Card",
+        "steps": 10,
 				"item_count": 1
 			},
 			{
 				"name": "Buena",
+        "steps": 20,
 				"item_count": 1
 			},
 			{
 				"name": "False Director",
 				"access_rules": ["$canFightTeamRocket"],
+        "steps": 100,
+        "battles": [[30,30,30,30,32,30]],
+        "cond_battles": [[25],[23,23,25],[22,23,22,21]],
 				"item_count": 1
 			},
 			{
 				"name": "Defeat Team Rocket",
 				"access_rules": ["$canFightTeamRocket,card_key"],
+        "steps": 125,
+        "battles": [[24,24],[26],[26,26],[23,23,25],[24,26]],
 				"hosted_item": "team_rocket"
 			},
 			{

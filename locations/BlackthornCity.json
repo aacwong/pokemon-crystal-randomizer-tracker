@@ -3,6 +3,7 @@
 		"name": "Blackthorn City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to":{"New Bark Town":200},
 		"access_rules": ["@Ecruteak City, @canUseStrength, $canFightTeamRocket"],
 		"sections": [
 			{
@@ -20,6 +21,8 @@
 			{
 				"name": "Gym - Clair",
 				"access_rules": ["team_rocket"],
+        "steps": 100,
+        "battles": [[34,34,34],[37],[34,36],[34,36],[37,37,40,37]],
 				"hosted_item": "clair"
 			}
 		],

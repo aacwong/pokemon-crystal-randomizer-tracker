@@ -3,10 +3,13 @@
 		"name": "Indigo Plateau",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to":{"Mt. Silver":85},
 		"access_rules": ["$haveEightBadges,@canUseSurf,@canUseWaterfall", "snorlax, @canUseCut"],
 		"sections": [
 			{
 				"name": "Pokémon League",
+        "steps": 300,
+        "battles": [[40,41,41,41,42],[40,41,43,42,44],[42,42,42,43,46],[42,42,45,44,47],[44,47,47,46,46,50]],
 				"hosted_item": "elite_four"
 			}
 		],

@@ -3,6 +3,8 @@
 		"name": "Fuschia City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to":{"Route 12":250},
+        "battles": [[35]],
 		"access_rules": ["@Saffron City"],
 		"sections": [
 			{
@@ -12,6 +14,8 @@
 			},
 			{
 				"name": "Gym - Janine",
+        "steps": 40,
+        "battles": [[36,36,36,33,39]],
 				"hosted_item": "janine"
 			},
 			{

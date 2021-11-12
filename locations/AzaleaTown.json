@@ -3,6 +3,7 @@
 		"name": "Azalea Town",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to": {"Ilex Forest": 25},
 		"sections": [
 			{
 				"name": "Apricorn Tree",
@@ -26,6 +27,8 @@
 			{
 				"name": "Gym - Bugsy",
 				"access_rules": ["rocketgrunt"],
+        "steps": 60,
+        "battles": [[10,10],[13],[14,14,16]],
 				"hosted_item": "bugsy"
 			},
 			{   "name": "Charcoal",

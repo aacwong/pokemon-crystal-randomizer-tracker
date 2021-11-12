@@ -3,9 +3,13 @@
 		"name": "New Bark Town",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to":{"Route 30":100,
+                    "Indigo Plateau":260},
 		"sections": [
 			{
 				"name": "Pokegear",
+        "steps": 0,
+        "battles":[],
 				"item_count": 1
 			},
 			{
@@ -40,6 +44,8 @@
 			{
 				"name": "Defeat Elite Four",
 				"access_rules": ["elite_four"],
+        "steps": 30,
+        "battles":[],
 				"item_count": 1
 			}
 		],

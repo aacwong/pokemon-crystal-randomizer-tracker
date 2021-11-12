@@ -3,6 +3,7 @@
 		"name": "Mahogany Town",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to": {"Ice Path": 65},
 		"access_rules": ["@Ecruteak City"],
 		"sections": [
 			{
@@ -36,6 +37,8 @@
 			},
 			{
 				"name": "Defeat The Electrodes",
+        "steps": 400,
+        "battles": [[17,19],[16,17,18],[20,20,20],[18,18],[18,18],[19],[22,22,24],[23,23,25],[23,23,23]],
 				"access_rules": ["red_gyarados"],
 				"hosted_item": "electrode"
 			},
@@ -48,6 +51,8 @@
 			{
 				"name": "Gym - Pryce",
 				"access_rules": ["electrode"],
+        "steps": 15,
+        "battles": [[28,27,29,31]],
 				"hosted_item": "pryce"
 			}
 		],

@@ -3,10 +3,12 @@
 		"name": "Cinnabar Island",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to": {"Seafoam Islands": 50},
 		"access_rules": ["@Viridian City, @canUseSurf"],
 		"sections": [
 			{
 				"name": "Talk to Blue",
+        "steps": 10,
 				"hosted_item": "talk_blue"
 			},
 			{

@@ -3,6 +3,8 @@
 		"name": "Ilex Forest",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to":{"Goldenrod City":350},
+        "battles":[[12,14,16]],
 		"sections": [
 			{   
 				"name": "Ground Before Cut Bush",
@@ -12,6 +14,8 @@
 			{
 				"name": "Retrieve Farfetch'd",
 				"access_rules": ["rocketgrunt"], 
+        "steps": 50,
+        "battles": [],
 				"hosted_item": "farfetch'd"
 			},
 			{

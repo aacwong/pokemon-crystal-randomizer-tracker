@@ -3,6 +3,7 @@
 		"name": "Slowpoke Well",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to": {"Azalea Town":50},
 		"sections": [
 			{
 				"name": "Hidden Behind Well Entrance",
@@ -19,6 +20,8 @@
 			},
 			{
 				"name": "Defeat Team Rocket",
+        "steps": 35,
+        "battles": [[9,9],[9,11],[7,9,9],[14]],
 				"hosted_item": "rocketgrunt"
 			},
 			{

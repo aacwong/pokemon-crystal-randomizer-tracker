@@ -3,6 +3,10 @@
 		"name": "Saffron City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to": {"Celadon City":45,
+                     "Vermilion City":70,
+                     "Cerulean City":70,
+                     "Lavender City":90},
 		"access_rules": ["squirt_bottle, pass", "@canUseCut, pass", "$noCutTree, pass", "squirt_bottle, ss_ticket"],
 		"sections": [
 			{
@@ -23,10 +27,13 @@
 			{
 				"name": "Copycat Girl",
 				"access_rules": ["lost_item"],
+        "steps": 35,
 				"item_count": 1
 			},
 			{
 				"name": "Gym - Sabrina",
+        "steps": 55,
+        "battles": [[46,46,48]],
 				"hosted_item": "sabrina"
 			}
 		],

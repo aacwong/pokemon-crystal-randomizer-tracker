@@ -3,6 +3,7 @@
 		"name": "Olivine Lighthouse",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "battles": [[20],[18,18],[21]],
 		"access_rules": ["@Ecruteak City"],
 		"sections": [
 			{
@@ -23,10 +24,12 @@
 			},
 			{
 				"name": "Lighthouse - Talk to Jasmine",
+        "steps": 100,
 				"hosted_item": "talk_jasmine"
 			},
 			{
 				"name": "Lighthouse - Return Secretpotion",
+        "steps": 100,
 				"access_rules": ["secret_potion"],
 				"hosted_item": "return_potion"
 			},

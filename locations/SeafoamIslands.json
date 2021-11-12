@@ -7,6 +7,8 @@
 		"sections": [
 			{
 				"name": "Gym - Blaine",
+        "steps": 5,
+        "battles": [[45,50,45]],
 				"hosted_item": "blaine"
 			}
 		],

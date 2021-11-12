@@ -3,6 +3,7 @@
 		"name": "Celadon City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "steps_to":{"Fuchsia City":200},
 		"access_rules": ["@Saffron City"],
 		"sections": [
 			{
@@ -28,6 +29,8 @@
 			{
 				"name": "Gym - Erika",
 				"access_rules": ["@canUseCut"],
+        "steps": 70,
+        "battles": [[35,35],[37],[32,32,35],[42,41,46,46]],
 				"hosted_item": "erika"
 			}
 		],
