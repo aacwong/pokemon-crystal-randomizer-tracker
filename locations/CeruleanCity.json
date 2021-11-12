@@ -3,6 +3,7 @@
 		"name": "Cerulean City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "fly_point":true,
         "steps_to":{"Power Plant": 70,
                     "Route 25": 120},
 		"access_rules": ["@Saffron City"],

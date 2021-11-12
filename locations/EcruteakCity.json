@@ -3,6 +3,7 @@
 		"name": "Ecruteak City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "fly_point":true,
         "steps_to":{"Olivine City":135,
                     "Mahogany Town":100},
         "battles":[[20]],

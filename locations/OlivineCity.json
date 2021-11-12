@@ -3,6 +3,7 @@
 		"name": "Olivine City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "fly_point":true,
         "steps_to":{"Olivine Lighthouse":25,
                     "Cianwood City":125},
         "battles": [[17]],

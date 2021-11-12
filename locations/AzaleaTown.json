@@ -3,6 +3,7 @@
 		"name": "Azalea Town",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "fly_point":true,
         "steps_to": {"Ilex Forest": 25},
 		"sections": [
 			{

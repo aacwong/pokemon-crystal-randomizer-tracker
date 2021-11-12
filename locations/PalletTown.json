@@ -3,6 +3,7 @@
 		"name": "Pallet Town",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "fly_point":true,
         "steps_to": {"Cinnabar Island":60},
 		"access_rules": ["@Viridian City"],
 		"sections": [

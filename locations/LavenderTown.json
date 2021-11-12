@@ -3,6 +3,7 @@
 		"name": "Lavender Town",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "fly_point":true,
         "steps_to":{"Route 12":75,
                     "Power Plant":90},
         "battles": [[35]],

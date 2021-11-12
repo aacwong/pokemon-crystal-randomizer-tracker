@@ -3,6 +3,7 @@
 		"name": "Indigo Plateau",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "fly_point":true,
         "steps_to":{"Mt. Silver":85},
 		"access_rules": ["$haveEightBadges,@canUseSurf,@canUseWaterfall", "snorlax, @canUseCut"],
 		"sections": [

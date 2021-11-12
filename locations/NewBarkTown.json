@@ -3,6 +3,7 @@
 		"name": "New Bark Town",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "fly_point":true,
         "steps_to":{"Route 30":100,
                     "Indigo Plateau":260},
 		"sections": [

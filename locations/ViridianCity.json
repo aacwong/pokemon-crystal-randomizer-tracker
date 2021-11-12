@@ -3,6 +3,7 @@
 		"name": "Viridian City",
 		"chest_unopened_img": "images/chests/default_unopened.png",
         "chest_opened_img": "images/chests/default_opened.png",
+        "fly_point":true,
         "steps_to":{"Pallet Town":100,
                     "Indigo Plateau":80},
 		"access_rules": ["snorlax,@canUseCut", "@canUseSurf,@canUseWaterfall,$haveEightBadges,[backward_kanto]"],
