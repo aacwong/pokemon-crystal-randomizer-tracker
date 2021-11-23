@@ -29,6 +29,7 @@
 			},
 			{    
 				"name": "Pokémon Center",
+        "steps": 10,
 				"item_count": 1
 			},
 			{

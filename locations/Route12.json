@@ -15,6 +15,7 @@
 			},
 			{
 				"name": "Fisherman",
+        "steps": 10,
 				"item_count": 1
 			},
 			{

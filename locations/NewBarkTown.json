@@ -9,7 +9,7 @@
 		"sections": [
 			{
 				"name": "Pokegear",
-        "steps": 0,
+        "steps": 8,
         "battles":[],
 				"item_count": 1
 			},

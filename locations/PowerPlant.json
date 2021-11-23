@@ -7,10 +7,12 @@
 		"sections": [
 			{
 				"name": "Talk To Manager",
+        "steps": 30,
 				"hosted_item": "power_plant_manager"
 			},
 			{
 				"name": "Fix Power Plant",
+        "steps": 10,
 				"access_rules": ["machine_part"],
 				"hosted_item": "fix_power_plant"
 			}

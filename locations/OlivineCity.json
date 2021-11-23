@@ -5,6 +5,7 @@
         "chest_opened_img": "images/chests/default_opened.png",
         "fly_point":true,
         "steps_to":{"Olivine Lighthouse":25,
+                    "Vermilion City":50,
                     "Cianwood City":125},
         "battles": [[17]],
 		"access_rules": ["@Ecruteak City"],
